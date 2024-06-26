@@ -10,10 +10,6 @@ const trustedCompanies = [
     logo: 'https://res.cloudinary.com/pitch-software/image/upload/website/pricing/logos/linear.svg'
   },
   {
-    name: 'bissell',
-    logo: 'https://res.cloudinary.com/pitch-software/image/upload/website/pricing/logos/synthesia.svg'
-  },
-  {
     name: 'primer',
     logo: 'https://res.cloudinary.com/pitch-software/image/upload/website/pricing/logos/primer.svg'
   },
@@ -123,7 +119,7 @@ const trustedCompanies = [
 
       <div
         class="mt-8 flex flex-wrap justify-center gap-6 brightness-75 contrast-200 grayscale sm:justify-between lg:gap-24">
-        <img v-for="company in trustedCompanies" :key="company.name" class="h-8 w-auto lg:h-10 lg:w-auto"
+        <img v-for="company in trustedCompanies" :key="company.name" class="h-8 w-auto"
           :src="company.logo" loading="lazy" :alt="company.name">
       </div>
     </section>
@@ -137,6 +133,7 @@ const trustedCompanies = [
         <GeneralEngineerCard slug="/hire/235" />
         <GeneralEngineerCard slug="/hire/245" />
         <GeneralEngineerCard slug="/hire/2393" />
+        <GeneralEngineerCard slug="/hire/2373" />
       </div>
     </GeneralSectionWrapper>
 
@@ -150,11 +147,5 @@ const trustedCompanies = [
 
       </div>
     </GeneralSectionWrapper>
-
-
-
-    <h1>Welcome to the homepage</h1>
-    <Button>Button</Button>
-    <Badge variant="destructive"> Destructive </Badge>
   </div>
 </template>
