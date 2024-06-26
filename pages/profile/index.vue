@@ -71,19 +71,18 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                     <TableHeader>
                       <TableRow>
                         <TableHead class="w-[100px]">
-                          SKU
+                          Tech
                         </TableHead>
-                        <TableHead>Stock</TableHead>
-                        <TableHead>Price</TableHead>
+                        <TableHead>Years of experience</TableHead>
                         <TableHead class="w-[100px]">
-                          Size
+                          Proficiency
                         </TableHead>
                       </TableRow>
                     </TableHeader>
                     <TableBody>
                       <TableRow>
                         <TableCell class="font-semibold">
-                          GGPC-001
+                          Rust
                         </TableCell>
                         <TableCell>
                           <Label for="stock-1" class="sr-only">
@@ -93,16 +92,6 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                             id="stock-1"
                             type="number"
                             default-value="100"
-                          />
-                        </TableCell>
-                        <TableCell>
-                          <Label for="price-1" class="sr-only">
-                            Price
-                          </Label>
-                          <Input
-                            id="price-1"
-                            type="number"
-                            default-value="99.99"
                           />
                         </TableCell>
                         <TableCell>
@@ -125,7 +114,7 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                       </TableRow>
                       <TableRow>
                         <TableCell class="font-semibold">
-                          GGPC-002
+                          PHP
                         </TableCell>
                         <TableCell>
                           <Label for="stock-2" class="sr-only">
@@ -135,16 +124,6 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                             id="stock-2"
                             type="number"
                             default-value="143"
-                          />
-                        </TableCell>
-                        <TableCell>
-                          <Label for="price-2" class="sr-only">
-                            Price
-                          </Label>
-                          <Input
-                            id="price-2"
-                            type="number"
-                            default-value="99.99"
                           />
                         </TableCell>
                         <TableCell>
@@ -167,7 +146,7 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                       </TableRow>
                       <TableRow>
                         <TableCell class="font-semibold">
-                          GGPC-003
+                          Javascript
                         </TableCell>
                         <TableCell>
                           <Label for="stock-3" class="sr-only">
@@ -177,16 +156,6 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
                             id="stock-3"
                             type="number"
                             default-value="32"
-                          />
-                        </TableCell>
-                        <TableCell>
-                          <Label for="price-3" class="sr-only">
-                            Stock
-                          </Label>
-                          <Input
-                            id="price-3"
-                            type="number"
-                            default-value="99.99"
                           />
                         </TableCell>
                         <TableCell>
