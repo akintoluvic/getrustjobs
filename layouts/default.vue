@@ -164,6 +164,6 @@ const allJobs = useState<JobType[]>('all-jobs', () => [
   <div>
     <GeneralNavbar />
     <slot />
-    <!-- <AppFooter /> -->
+    <GeneralFooter />
   </div>
 </template>

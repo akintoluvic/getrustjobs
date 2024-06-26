@@ -17,6 +17,8 @@ import {
 import { Input } from '@/components/ui/input'
 import { toast } from '@/components/ui/toast'
 
+const router = useRouter()
+
 const formSchema = toTypedSchema(z.object({
   email: z.string().min(2).max(50),
   password: z.string().min(2).max(50),
@@ -31,6 +33,7 @@ const onSubmit = handleSubmit((values) => {
     title: 'You submitted the following values:',
     description: h('pre', { class: 'mt-2 w-[340px] rounded-md bg-slate-950 p-4' }, h('code', { class: 'text-white' }, JSON.stringify(values, null, 2))),
   })
+  router.push('/profile')
 })
 </script>
 <template>

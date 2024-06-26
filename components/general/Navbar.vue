@@ -17,8 +17,8 @@
                 </div>
                 <div id="navlinks"
                     class="invisible absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border p-8 opacity-0 transition-all duration-300 lg:visible lg:relative lg:flex lg:w-auto lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:peer-checked:translate-y-0 dark:lg:bg-transparent">
-                    <div class="text-gray-600 dark:text-gray-300 lg:pr-4">
-                        <ul class="space-y-6 text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
+                    <div class="text-gray-600 dark:text-gray-300">
+                        <ul class="space-y-6 items-center text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
                             <li>
                                 <NuxtLink
                                     class="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
@@ -41,22 +41,18 @@
                                     <span>Manage profile</span>
                                 </NuxtLink>
                             </li>
-                        </ul>
-                    </div>
-
-                    <div
-                        class="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
-                        <!-- <a class="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100" href="/pages/contact">
-                        <span class="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">Get started</span>
-                    </a> -->
-                        <NuxtLink
-                            class="relative flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100"
+                            <li>
+                                <NuxtLink
+                            class="lg:ml-4 relative flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100"
                             to="/jobs/post">
                             <span
                                 class="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">Post
                                 jobs</span>
                         </NuxtLink>
+                            </li>
+                        </ul>
                     </div>
+
                 </div>
             </div>
         </div>
