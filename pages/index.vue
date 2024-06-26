@@ -36,7 +36,7 @@ const trustedCompanies = [
   <div class="">
     <!-- Header -->
     <header class="relative pt-24 sm:pt-28 md:pt-32 lg:pt-36">
-      <svg class="absolute top-0" width="1635" height="1117" viewBox="0 0 1635 1117" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg class="hidden md:block absolute md:-top-44 lg:-top-16 w-full overflow-x-hidden" width="1635" height="1117" viewBox="0 0 1635 1117" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g opacity="0.6">
           <g filter="url(#filter0_f_214_7)">
             <rect x="542.233" y="146" width="284.361" height="284.361" transform="rotate(30.0124 542.233 146)"
@@ -100,14 +100,14 @@ const trustedCompanies = [
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <span class="flex gap-7 justify-center mx-auto mt-10">
+          <span class="flex flex-col sm:flex-row gap-7 justify-center mx-auto mt-10">
             <NuxtLink
-              class="relative flex h-11 w-max items-center justify-center px-10 before:absolute before:inset-0 before:rounded-full before:bg-gray-800 before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
+              class="relative flex h-11 w-full sm:w-max items-center justify-center px-10 before:absolute before:inset-0 before:rounded-full before:bg-gray-800 before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
               to="/jobs">
               <span class="relative text-base font-semibold text-white">Find Rust Job</span>
             </NuxtLink>
             <NuxtLink
-              class="relative flex h-11 w-max items-center justify-center px-10 before:border before:border-border before:absolute before:inset-0 before:rounded-full before:bg-muted before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
+              class="relative flex h-11 w-full sm:w-max items-center justify-center px-10 before:border before:border-border before:absolute before:inset-0 before:rounded-full before:bg-muted before:transition-transform before:duration-300 active:duration-75 active:before:scale-95"
               to="/jobs">
               <span class="relative text-base font-semibold text-gray-900">Create Profile</span>
             </NuxtLink>

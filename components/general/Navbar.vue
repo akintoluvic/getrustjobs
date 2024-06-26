@@ -42,13 +42,13 @@
                                 </NuxtLink>
                             </li>
                             <li>
-                                <NuxtLink
-                            class="lg:ml-4 relative flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100"
-                            to="/jobs/post">
-                            <span
-                                class="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">Post
-                                jobs</span>
-                        </NuxtLink>
+                              <NuxtLink
+                                class="lg:ml-4 relative flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100"
+                                to="/jobs/post">
+                                <span
+                                    class="relative text-sm font-semibold text-white dark:text-gray-900 lg:text-primary lg:dark:text-white">Post
+                                    jobs</span>
+                              </NuxtLink>
                             </li>
                         </ul>
                     </div>
