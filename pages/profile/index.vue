@@ -8,7 +8,6 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
     description="Update your your profile to get jobs from around the globe."
     background-color="bg-white"
   >
-  <!-- <div class="flex flex-col sm:gap-4 sm:py-4 sm:pl-14"></div> -->
   <main class="mt-12 grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
         <div class="mx-auto grid max-w-[59rem] flex-1 auto-rows-max gap-4">
           <div class="flex items-center gap-4">
@@ -354,14 +353,6 @@ import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
           </div>
         </div>
       </main>
-    <div
-      class="rounded-3xl mt-12 border border-gray-100 bg-white p-2 shadow-2xl shadow-gray-600/10"
-    >
-    <div class="gap-6 grid grid-cols-4">
-      <div class="border-r-2 border-gray-100 h-24 -py-1">jdkdk</div>
-      <div class="bg-slate-200 col-span-3">mddk</div>
-    </div>
-    </div>
   </GeneralSectionWrapper>
   
 </template>
