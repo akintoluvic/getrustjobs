@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PlusCircle, Upload } from 'lucide-vue-next';
+import { Edit, PlusCircle, Upload } from 'lucide-vue-next';
 
 </script>
 <template>
@@ -12,12 +12,12 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
   <main class="mt-12 grid flex-1 items-start gap-4 p-4 sm:px-6 sm:py-0 md:gap-8">
         <div class="mx-auto grid max-w-[59rem] flex-1 auto-rows-max gap-4">
           <div class="flex items-center gap-4">
-            <Button variant="outline" size="icon" class="h-7 w-7">
-              <ChevronLeft class="h-4 w-4" />
-              <span class="sr-only">Back</span>
-            </Button>
+            <span variant="outline" size="icon" class="h-7 w-7 grid place-items-center rounded border">
+              <Edit class="h-4 w-4" />
+              <span class="sr-only">Edit</span>
+            </span>
             <h1 class="flex-1 shrink-0 whitespace-nowrap text-xl font-semibold tracking-tight sm:grow-0">
-              Pro Controller
+              Edit Profile
             </h1>
             <Badge variant="outline" class="ml-auto sm:ml-0">
               In stock
@@ -27,7 +27,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
                 Discard
               </Button>
               <Button size="sm">
-                Save Product
+                Save Profile
               </Button>
             </div>
           </div>
@@ -35,7 +35,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
             <div class="grid auto-rows-max items-start gap-4 lg:col-span-2 lg:gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Product Details</CardTitle>
+                  <CardTitle>Profile Details</CardTitle>
                   <CardDescription>
                     Lipsum dolor sit amet, consectetur adipiscing elit
                   </CardDescription>
@@ -64,7 +64,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Stock</CardTitle>
+                  <CardTitle>Tech Stack</CardTitle>
                   <CardDescription>
                     Lipsum dolor sit amet, consectetur adipiscing elit
                   </CardDescription>
@@ -222,7 +222,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Product Category</CardTitle>
+                  <CardTitle>Profile Category</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div class="grid gap-6 sm:grid-cols-3">
@@ -279,7 +279,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
             <div class="grid auto-rows-max items-start gap-4 lg:gap-8">
               <Card>
                 <CardHeader>
-                  <CardTitle>Product Status</CardTitle>
+                  <CardTitle>Profile Status</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <div class="grid gap-6">
@@ -307,7 +307,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
               </Card>
               <Card class="overflow-hidden">
                 <CardHeader>
-                  <CardTitle>Product imgs</CardTitle>
+                  <CardTitle>Profile Picture</CardTitle>
                   <CardDescription>
                     Lipsum dolor sit amet, consectetur adipiscing elit
                   </CardDescription>
@@ -315,42 +315,22 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
                 <CardContent>
                   <div class="grid gap-2">
                     <img
-                      alt="Product image"
+                      alt="Profile image"
                       class="aspect-square w-full rounded-md object-cover"
                       height="300"
-                      src=""
+                      src="https://images.unsplash.com/photo-1598257006458-087169a1f08d?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       width="300"
                     >
-                    <div class="grid grid-cols-3 gap-2">
-                      <button>
-                        <img
-                          alt="Product image"
-                          class="aspect-square w-full rounded-md object-cover"
-                          height="84"
-                          src=""
-                          width="84"
-                        >
-                      </button>
-                      <button>
-                        <img
-                          alt="Product image"
-                          class="aspect-square w-full rounded-md object-cover"
-                          height="84"
-                          src=""
-                          width="84"
-                        >
-                      </button>
-                      <button class="flex aspect-square w-full items-center justify-center rounded-md border border-dashed">
-                        <Upload class="h-4 w-4 text-muted-foreground" />
-                        <span class="sr-only">Upload</span>
-                      </button>
-                    </div>
+                    <Button class="flex gap-2 w-full items-center justify-center rounded-md">
+                      <Upload class="h-4 w-4 text-white" />
+                      <span class="sr-onl">Upload Profile Picture</span>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle>Archive Product</CardTitle>
+                  <CardTitle>Archive Profile</CardTitle>
                   <CardDescription>
                     Lipsum dolor sit amet, consectetur adipiscing elit.
                   </CardDescription>
@@ -358,7 +338,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
                 <CardContent>
                   <div />
                   <Button size="sm" variant="secondary">
-                    Archive Product
+                    Archive Profile
                   </Button>
                 </CardContent>
               </Card>
@@ -369,7 +349,7 @@ import { PlusCircle, Upload } from 'lucide-vue-next';
               Discard
             </Button>
             <Button size="sm">
-              Save Product
+              Save Profile
             </Button>
           </div>
         </div>
